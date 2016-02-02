@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <Button android:text="Record" android:id="@+id/btRecord" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="Play" android:id="@+id/btPlay" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btRecordAndPlay"
+        android:text="Record_Or_Play"/>
+</LinearLayout>
